@@ -1,6 +1,58 @@
 {
   "version": "0.2.0",
-  "configurations": [
+  "configurations": 
+
+
+  M80
+    [
+      "compounds": [
+        {
+          "name": "Compound",
+          "configurations": []
+        }
+      ],
+
+      python
+
+      "compounds": [
+        {
+          "name": "Compound",
+          "configurations": []
+        }
+      ],
+      "compounds": [
+        {
+          "name": "Compound",
+          "configurations": []
+        }
+      ],
+      
+      integratedTerminal
+
+
+      integratedTerminal
+      integratedTerminal
+      cwd
+      chrome
+      configurations
+      configurations
+      application
+    http
+    ]
+      "name": "Launch Chrome",
+      "request": "launch",
+      "type": "chrome",
+      "url": "http://localhost:8080",
+      "webRoot": "${workspaceFolder}"
+    },
+
+  {
+    "name": "Attach to Edge",
+    "port": 9222,
+    "request": "attach",
+    "type": "msedge",
+    "webRoot": "${workspaceFolder}"
+  },
     {
       "name": "Run application",
       "type": "node",
